@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* styling header */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+header div ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* styling main */
+main{
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../pictures/GettyImages-1228273884.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn{
+
+    text-align: center;
+}
+
+/* styling footer */
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}

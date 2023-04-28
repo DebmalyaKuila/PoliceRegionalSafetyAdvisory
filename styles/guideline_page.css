@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* header styling */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+header div ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* main styling */
+main{
+    height: 100%;
+    padding: 0 10%;
+    background-color: rgba(125, 197, 228,0.3);
+    
+}
+
+.terminal{
+    background-color: rgba(108, 168, 170,0.6);
+    border: 2px solid black;
+   
+}
+.terminal li{
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid black;
+}
+.box{
+    border: 1px solid black;
+}
+
+/* footer styling */
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
